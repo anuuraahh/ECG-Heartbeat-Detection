@@ -1,0 +1,19 @@
+ECG analysis report: Synthetic ECG (demo)
+============================================================
+Duration analysed:      3.0 min at 360 Hz
+Beats detected:         212
+Mean heart rate:        72 bpm (min 50, max 114, beat to beat)
+RR variability (SD):    84 ms
+Premature beats flagged: 7
+Pauses flagged:          0
+Average rate is in the normal 60-100 bpm range.
+
+Detector accuracy vs. reference beat annotations (+/-150 ms):
+  True positives:  212
+  False positives: 0
+  Missed beats:    0
+  Sensitivity:     100.00%
+  PPV:             100.00%
+  Annotated premature beats caught by the RR rule: 7 of 7
+
+Note: educational project only, not a medical device or diagnosis.

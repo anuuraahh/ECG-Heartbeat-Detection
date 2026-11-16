@@ -1,0 +1,19 @@
+ECG analysis report: MIT-BIH record 100 (lead MLII)
+============================================================
+Duration analysed:      5.0 min at 360 Hz
+Beats detected:         369
+Mean heart rate:        74 bpm (min 25, max 115, beat to beat)
+RR variability (SD):    90 ms
+Premature beats flagged: 3
+Pauses flagged:          1
+Average rate is in the normal 60-100 bpm range.
+
+Detector accuracy vs. reference beat annotations (+/-150 ms):
+  True positives:  369
+  False positives: 0
+  Missed beats:    2
+  Sensitivity:     99.46%
+  PPV:             100.00%
+  Annotated premature beats caught by the RR rule: 3 of 4
+
+Note: educational project only, not a medical device or diagnosis.
